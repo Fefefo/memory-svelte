@@ -1,8 +1,8 @@
 <script lang="ts">
   const genshinUrl = "https://api.genshin.dev/characters/";
 
-  const lolUrlPic = "http://ddragon.leagueoflegends.com/cdn/13.9.1/img/champion/";
-  const lolUrl = "http://ddragon.leagueoflegends.com/cdn/13.9.1/data/en_US/champion.json";
+  const lolUrlPic = "https://ddragon.leagueoflegends.com/cdn/13.9.1/img/champion/";
+  const lolUrl = "https://ddragon.leagueoflegends.com/cdn/13.9.1/data/en_US/champion.json";
   let arr: [string, string][] = [];
   let champions = [];
   let unique = {};
